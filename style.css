@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Silkscreen', monospace;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 10px;
+    width: 25rem;
+    padding: 50px;
+}
+
+img {
+    width: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Silkscreen', monospace;
+    font-size: 1em;
+}
+  
+input {
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Silkscreen', monospace;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Silkscreen', monospace;
+    font-size: 1em;
+}

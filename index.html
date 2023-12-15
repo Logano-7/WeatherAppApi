@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Weather App</title>
 </head>
 <body>
-    
+    <div class="card">
+        <form class="searchForm">
+          <input type="text" class="search-bar" placeholder="City name">
+            <button>Search</button>
+        </form>
+        <div class="weather loading">
+          <h2 class="city">Weather in New York</h2>
+          <h1 class="temp">51°F</h1>
+          <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="humidity">Humidity: 60%</div>
+          <div class="wind">Wind speed: 6.2 mph</div>
+          <div class="realFeel">Real Feel: 53°F</div>
+        </div>
+      </div>
 </body>
 </html>
